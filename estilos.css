@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+
+width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    background-color: #00aaff; /* Acento en el logo */
+    border-radius: 0%; 
+    object-fit: cover;
+    border: 2px solid white;
+
+
+}
+
+header h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #666;
+  width: 100%;
+  text-align: center;
+}
+
+/* Sección de imagen central */
+.imagen1 img {
+  display: block;
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.pie {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Texto centrado */
+.texto.centrado {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.imagenes-con-texto {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.imagenes-con-texto .bloque {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.imagenes-con-texto .imagen {
+  flex: 1 1 30%;
+}
+
+.imagenes-con-texto .imagen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagenes-con-texto .pie1,
+.imagenes-con-texto .pie2 {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.imagenes-con-texto .texto-central {
+  flex: 1 1 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
